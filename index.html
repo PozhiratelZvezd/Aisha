@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #68059e;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: opacity 0.3s ease;
+            margin-top: 20px; /* Отступ сверху, чтобы кнопка была под текстом */
+        }
+
+        .button:hover {
+            opacity: 0; /* При наведении кнопка станет прозрачной */
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column; /* Элементы выстраиваются по вертикали */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .text {
+            font-size: 175px;
+        }
+    </style>
+    <title>Button Hover</title>
+</head>
+<body>
+
+<div class="container">
+    <span class="text">Calculator жиес</span>
+    <button class="button">Открой меня</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
